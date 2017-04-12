@@ -1,0 +1,52 @@
+body {
+	background-color: brown;
+	font-family: 'comic sans';
+	color: white;
+}
+.navBlack {
+	background-color:;
+	color: white;
+	list-style-type: none;
+}
+
+.mainBody {
+	font-family: "Arial verdana";
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	padding: auto;
+
+}
+
+#white {
+	color: white;
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+}
+ul {
+	color: white;
+	list-style-type: none;
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+	overflow: hidden;
+}
+li {
+	float: left;
+	padding-top: 60px;
+	margin-bottom: auto;
+
+}
+
+li a, .dropbtn {
+	margin-top: 300px;
+	color: white;
+	display: block;
+	width: 50px;
+	background-color: black;
+	padding: 25px 31px;
+	text-decoration: none;
+}
