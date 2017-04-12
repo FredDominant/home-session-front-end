@@ -1,5 +1,5 @@
 body {
-	background-color: brown;
+	background-color: grey;
 	font-family: 'comic sans';
 	color: white;
 }
@@ -36,17 +36,65 @@ ul {
 }
 li {
 	float: left;
+	padding-left: 0px;
 	padding-top: 60px;
 	margin-bottom: auto;
 
 }
 
-li a, .dropbtn {
-	margin-top: 300px;
-	color: white;
-	display: block;
+li a {
+	margin-top: 60px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	color: #c2c2a3;
+	display: inline-block;
 	width: 50px;
 	background-color: black;
 	padding: 25px 31px;
 	text-decoration: none;
+	text-align: center;
+}
+.button {
+	background-color: white;
+	border: none;
+	padding: 15px 32px;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 4px 2px;
+}
+.button2, .button1 {
+	border-radius: 3px;
+}
+
+.joinFlickr {
+	font-size: 20px;
+	font-family: "Arial Verdana";
+}
+input {
+	width: 40%;
+}
+.searchInput {
+	text-align: left;
+}
+.searchBar {
+	text-decoration: none;
+	text-align: center;
+	background-color: black;
+	display: block;
+	padding-left: 30px
+}
+.alignLeft {
+	text-align: right;
+}
+.logIn {
+	color: white;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+#signUp {
+	margin-right: 5px;
 }
